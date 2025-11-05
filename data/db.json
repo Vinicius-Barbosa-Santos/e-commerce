@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Nike Air Max 90",
+      "category": "tenis",
+      "price": 599.9,
+      "image": "https://images.unsplash.com/photo-1713649931645-acc95f0bc6c9?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3378"
+    },
+    {
+      "id": 2,
+      "name": "Tênis Adidas Ultraboost",
+      "category": "tenis",
+      "price": 799.9,
+      "image": "https://plus.unsplash.com/premium_photo-1682125167475-694419f57ad4?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3870"
+    },
+    {
+      "id": 3,
+      "name": "Tênis Converse All Star",
+      "category": "tenis",
+      "price": 299.9,
+      "image": "https://images.unsplash.com/photo-1654147801991-a9fa8594e900?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3151"
+    },
+    {
+      "id": 4,
+      "name": "Tênis Puma RS-X",
+      "category": "tenis",
+      "price": 549.9,
+      "image": "https://images.unsplash.com/photo-1662037131816-aa2d7245166c?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3870"
+    },
+    {
+      "id": 5,
+      "name": "Tênis Asics Gel-Kayano 30",
+      "category": "tenis",
+      "price": 899.9,
+      "image": "https://images.unsplash.com/photo-1709258228137-19a8c193be39?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=2222"
+    },
+    {
+      "id": 6,
+      "name": "Tênis New Balance 574",
+      "category": "tenis",
+      "price": 499.9,
+      "image": "https://images.unsplash.com/photo-1702492921891-663ef7311d39?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=900"
+    },
+    {
+      "id": 7,
+      "name": "Tênis Vans Old Skool",
+      "category": "tenis",
+      "price": 349.9,
+      "image": "https://images.unsplash.com/photo-1574946176568-b0baa3c91466?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3125"
+    },
+    {
+      "id": 8,
+      "name": "Tênis Nike Dunk Low",
+      "category": "tenis",
+      "price": 799.9,
+      "image": "https://images.unsplash.com/photo-1581079732262-559fe855062c?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3935"
+    }
+  ],
+  "cart": [
+    {
+      "id": "f45f",
+      "productId": 3,
+      "name": "Tênis Converse All Star",
+      "price": 299.9,
+      "image": "https://images.unsplash.com/photo-1654147801991-a9fa8594e900?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3151",
+      "quantity": 2
+    }
+  ]
+}
