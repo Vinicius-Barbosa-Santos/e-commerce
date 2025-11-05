@@ -20,7 +20,7 @@ export const Cart = () => {
     <div className="mt-11">
       <Card className="mx-auto">
         <CardHeader className="border-b">
-          <CardTitle className="text-muted-foreground grid grid-cols-[1fr_160px_200px] text-sm">
+          <CardTitle className="text-muted-foreground grid grid-cols-3 text-xs sm:grid-cols-[1fr_160px_200px] sm:text-sm">
             <span>Produto</span>
             <span className="text-center">Qtd</span>
             <span className="text-right">Subtotal</span>
@@ -53,9 +53,11 @@ export const Cart = () => {
             ))
           )}
         </CardContent>
-        <CardFooter className="flex items-center justify-between border-t">
-          <Button className="rounded-lg">Finalizar pedido</Button>
-          <div className="flex items-baseline gap-2">
+        <CardFooter className="flex flex-col gap-3 border-t sm:flex-row sm:items-center sm:justify-between">
+          <Button className="w-full rounded-lg sm:w-auto">
+            Finalizar pedido
+          </Button>
+          <div className="flex items-baseline justify-end gap-2">
             <span className="text-muted-foreground text-sm">Total</span>
             <span className="text-2xl font-semibold">
               {priceFormatter.format(total)}

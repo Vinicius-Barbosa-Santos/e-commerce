@@ -64,7 +64,31 @@
       "name": "Tênis Converse All Star",
       "price": 299.9,
       "image": "https://images.unsplash.com/photo-1654147801991-a9fa8594e900?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3151",
-      "quantity": 2
+      "quantity": 5
+    },
+    {
+      "id": "7ef2",
+      "productId": 6,
+      "name": "Tênis New Balance 574",
+      "price": 499.9,
+      "image": "https://images.unsplash.com/photo-1702492921891-663ef7311d39?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=900",
+      "quantity": 5
+    },
+    {
+      "id": "54e8",
+      "productId": 7,
+      "name": "Tênis Vans Old Skool",
+      "price": 349.9,
+      "image": "https://images.unsplash.com/photo-1574946176568-b0baa3c91466?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3125",
+      "quantity": 1
+    },
+    {
+      "id": "8a54",
+      "productId": 8,
+      "name": "Tênis Nike Dunk Low",
+      "price": 799.9,
+      "image": "https://images.unsplash.com/photo-1581079732262-559fe855062c?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=3935",
+      "quantity": 4
     }
   ]
 }

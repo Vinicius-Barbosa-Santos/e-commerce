@@ -31,12 +31,14 @@ export const CardItem = ({ product }: CardItemProps) => {
           src={product.image}
           alt={product.name}
         />
-        <h2>{product.name}</h2>
+        <h2 className="line-clamp-2 text-center text-sm sm:text-base">
+          {product.name}
+        </h2>
         <div className="flex items-center justify-center space-x-4">
           <p>{priceFormatter.format(product.price)}</p>
           <button
             onClick={handleAddCart}
-            className="cursor-pointer rounded-md bg-slate-900 px-4 py-2 text-white"
+            className="cursor-pointer rounded-md bg-slate-900 px-3 py-2 text-sm text-white sm:px-4 sm:text-base"
           >
             Adicionar produto
           </button>

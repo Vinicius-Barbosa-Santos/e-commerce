@@ -34,7 +34,7 @@ export function CartItemVisual({
             alt={name}
           />
           <div>
-            <p className="text-sm leading-tight font-medium sm:text-base">
+            <p className="line-clamp-2 text-sm leading-tight font-medium sm:text-base">
               {name}
             </p>
             <p className="text-muted-foreground text-xs sm:text-sm">
@@ -43,7 +43,7 @@ export function CartItemVisual({
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center justify-center gap-1.5">
           <Button
             onClick={onDecrease}
             variant="outline"
@@ -57,7 +57,7 @@ export function CartItemVisual({
             value={quantity}
             onChange={onIncrease}
             readOnly
-            className="bg-background h-8 w-14 rounded-md border text-center"
+            className="bg-background h-8 w-12 rounded-md border text-center"
           />
           <Button
             onClick={onIncrease}
