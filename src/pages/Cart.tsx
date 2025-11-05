@@ -9,12 +9,21 @@ import { Button } from "@/components/ui/button";
 import { CartItemVisual } from "@/components/cart-item-visual";
 import { priceFormatter } from "@/utils/formatter";
 import { useGlobalContext } from "@/context/global";
+import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 
 export const Cart = () => {
   const { updateCartItem } = useGlobalContext();
   const { cart, deleteCart } = useGlobalContext();
 
+  const navigate = useNavigate();
+
   const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+
+  const handleFinishOrder = () => {
+    navigate("/");
+    toast.success("Pedido finalizado com sucesso!");
+  };
 
   return (
     <div className="mt-11">
@@ -54,7 +63,10 @@ export const Cart = () => {
           )}
         </CardContent>
         <CardFooter className="flex flex-col gap-3 border-t sm:flex-row sm:items-center sm:justify-between">
-          <Button className="w-full rounded-lg sm:w-auto">
+          <Button
+            onClick={handleFinishOrder}
+            className="w-full cursor-pointer rounded-lg sm:w-auto"
+          >
             Finalizar pedido
           </Button>
           <div className="flex items-baseline justify-end gap-2">
